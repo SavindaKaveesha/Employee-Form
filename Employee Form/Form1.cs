@@ -22,13 +22,10 @@ namespace Employee_Form
 
         private void loadBtn_Click(object sender, EventArgs e)
         {
-            string id = EmpIdBox.Text;
-            string name = nameBox.Text;
-            string date = datePicker.Text;
 
-            EmpName[currentIndex] = name;
-            EmpID[currentIndex] = id;
-            hireDate[currentIndex] = date;
+            EmpName[currentIndex] = nameBox.Text;
+            EmpID[currentIndex] = EmpIdBox.Text;
+            hireDate[currentIndex] = datePicker.Text;
 
             currentIndex++;
 
